@@ -3,6 +3,7 @@ Find On Light Speed Admin Panles Available 1lakh plus admin panels in txt  inclu
 
 [+] git clone https://github.com/hiddenghost9737/AdminFinder.git</br>
 [+] cd AdminFinder</br>
+[+] pip3 install -r requirements.txt</br>
 [+] python3 adminfinder.py</br>
 
 

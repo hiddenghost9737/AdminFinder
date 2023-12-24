@@ -41,7 +41,7 @@ def print_colored_url(url, status_code):
     elif status_code == 404:
         print(f"{Fore.RED+Style.BRIGHT}[-]{url} - {status_code} (Not Found){Style.RESET_ALL}")
     else:
-        print(f"{url} - Unable to fetch status code")
+        print(Fore.RED+Style.BRIGHT+f"{url} - [400]")
 
 def main():
     base_url = input(Fore.BLUE+Style.BRIGHT+"[+] Enter the base URL to scrape: ")
